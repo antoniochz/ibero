@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Dr. Antonio Cedillo Hern·ndez
+%%% Dr. Antonio Cedillo Hern√°ndez
 %%% 05/05/2018
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Crear carpetas utilizando META.MAT
@@ -12,7 +12,7 @@ for i=1:length(fine_label_names)
 end
 %% Extraer imagenes y guardar en carpeta correspondiente
 %% Imagenes de entrenamiento
-load('train.mat');
+load('dataset-cifar-100\train.mat');
 im=zeros(32,32,3);
 for cpt=1:50000   
     R=data(cpt,1:1024);
